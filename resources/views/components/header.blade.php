@@ -9,7 +9,7 @@
             </ul>
         </div>
         <ul class="socials">
-            <li><a href="https://www.instagram.com/art-kaz.kz/" target="_blank"><img src="/assets/images/instagram.svg"></a></li>
+            <li><a href="https://www.instagram.com/art__kazakh/" target="_blank"><img src="/assets/images/instagram.svg"></a></li>
             <li class="vk"><a href="https://vk.com/id508250357" target="_blank"><img src="/assets/images/vk.svg"></a></li>
 
         </ul>
@@ -30,7 +30,7 @@
             <nav class="nav">
                 <ul>
                     <li><a href="{{ route('home') }}">{{__('site.main')}}</a></li>
-                    <li><a href="{{ route('about') }}">{{__('site.about')}}</a></li>
+{{--                    <li><a href="{{ route('about') }}">{{__('site.about')}}</a></li>--}}
                     <li class="submenu"><a href="{{ route('catalog') }}">+{{__('site.categories')}}</a>
                         <ul style="">
                             @foreach($categories as $category)

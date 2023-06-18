@@ -1,5 +1,6 @@
 @extends('layouts.main')
 
+@section('title', __('site.about'))
 @section('content')
 <div class="page"><!-- page content -->
 

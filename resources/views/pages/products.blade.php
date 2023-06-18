@@ -1,6 +1,8 @@
 @extends('layouts.main')
 
 
+@section('title', __('site.categories'). ' '. $category->title)
+
 @section('content')
     <div class="page"><!-- page content -->
         <div class="container">

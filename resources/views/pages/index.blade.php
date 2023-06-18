@@ -1,5 +1,7 @@
 @extends('layouts.main')
 
+@section('title', __('site.main'))
+
 @section('content')
     <div class="main" role="toolbar"><!-- main content -->
         <section class="slider"><!-- main slider -->

@@ -24,16 +24,14 @@
                 <h6>{{__('site.contacts')}}</h6>
                 <ul>
                     <li>
-                        Республика Казахстан,<br>г. Алматы, Валиханова 64                    </li>
+                        Республика Казахстан,<br>г. Алматы ул. Кожамкулова 139а</li>
 
-                    <li><a href="tel:+7 (747) 550 31 10">+7 (747) <span>550 31 10</span></a></li>
+                    <li><a href="tel:+77087017171">+7 708 701 71 71</a></li>
 
-
-
-                    <li>Email: <a href="mailto:info@art-kaz.kz">info@art-kaz.kz</a></li>
+                    <li>Email: <a href="mailto:art.kazakh@mail.ru">art.kazakh@mail.ru</a></li>
                 </ul>
                 <ul class="socials">
-                    <li><a href="https://www.instagram.com/art-kaz.kz/" target="_blank"><img src="/assets/images/instagramW.svg"></a></li>
+                    <li><a href="https://www.instagram.com/art__kazakh" target="_blank"><img src="/assets/images/instagramW.svg"></a></li>
                     <li class="vk"><a href="https://vk.com/id508250357" target="_blank"><img src="/assets/images/vkW.svg"></a></li>
 
                 </ul>            </div>
