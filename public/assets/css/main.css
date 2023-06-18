@@ -510,7 +510,9 @@ header a:hover {
 }
 
 header .container-fluid {
-    background: url(../images/img-1.jpg) repeat
+    background-color: #fff;
+    background-color: #393939;
+    /*background: url(../images/img-1.jpg) repeat*/
 }
 
 header .logo {
@@ -1003,8 +1005,9 @@ header .nav > ul > li ul li.active a {
     }
 
     header .langs {
-        top: 0;
-        left: 10px
+        top: 100%;
+        left: auto;
+        right: 0;
     }
 
     header .nav--btn {
@@ -1038,6 +1041,20 @@ header .nav > ul > li ul li.active a {
     margin-bottom: 40px !important
 }
 
+.whatsapp_link {
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    border-radius: 30%;
+    background-color: #fff;
+    padding: 5px;
+    box-shadow: 0px 10px 14px rgba(0, 0, 0, 0.1);
+}
+.whatsapp_link img {
+    width: 50px;
+    height: 50px;
+}
+
 .slider .slick-slide {
     overflow: hidden;
     position: relative;
@@ -1047,7 +1064,7 @@ header .nav > ul > li ul li.active a {
 .slider .slick-slide img {
     display: block;
     width: 100%;
-    height: auto
+    height: 800px;
 }
 
 .slider .slick-slide .slider__block {
