@@ -38,8 +38,10 @@ Route::group(['middleware' => ['web']], function () {
 });
 
 
+Route::get('admin/login', [MainController::class, 'login'])->name('login');
+Route::post('/login', [MainController::class, 'auth'])->name('loginPost');
 
-Route::group(['prefix' => 'admin'], function () {
+Route::middleware(['auth'])->prefix('admin')->group(function () {
     Route::get('/', [MainController::class, 'index'])->name('admin.main');
 
     Route::group(['prefix' => 'categories'], function () {

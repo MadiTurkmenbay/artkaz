@@ -9,15 +9,15 @@
                 <h6>{{__('site.categories')}}</h6>
                 <ul>
                     @foreach($categories as $category)
-                        <li><a href="/catalog/{{$category->id}}/">{{$category->title}}</a></li>
+                        <li class="{{ request()->url() == route('products',  ['alias' => $category->id]) ? 'active':'' }}"><a href="{{ route('products', ['alias' => $category->id]) }}">{{$category->title}}</a></li>
                     @endforeach
                 </ul>
             </div>
             <div class="col-lg-2 col-md-3 footer__nav">
                 <h6>{{__('site.nav')}}</h6>
                 <ul>
-                    <li><a href="/contacts/">{{__('site.contacts')}}</a></li>
-                    <li><a href="/about/">{{__('site.about')}}</a></li>
+                    <li class="{{ request()->routeIs('contacts') ? 'active':'' }}"><a href="{{ route('contacts') }}">{{__('site.contacts')}}</a></li>
+                    <li class="{{ request()->routeIs('about') ? 'active':'' }}"><a href="{{ route('about') }}">{{__('site.about')}}</a></li>
                 </ul>
             </div>
             <div class="col-lg-3 col-md-3 footer__contacts">

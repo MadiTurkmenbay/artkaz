@@ -93,7 +93,7 @@
                             @endif
                         </div>
                         <div class="card-footer clearfix">
-                            {{ $categories->links() }}
+                            {{ $categories->links('vendor.pagination.bootstrap-5') }}
                         </div>
                     </div>
 

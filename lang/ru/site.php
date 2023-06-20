@@ -10,7 +10,7 @@ return [
     'size' => 'Размер',
     'material' => 'Материал',
     'description' => 'Описание',
-    'categories' => 'КАТАЛОГ',
+    'categories' => 'Каталог',
     'buy_paintings' => 'Купить картины в Алматы',
     'contacts' => 'Контакты',
     'main' => 'Главная',
